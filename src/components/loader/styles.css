@@ -1,0 +1,27 @@
+.loader-center{
+	display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.loader-center p{
+	font-size: 18px;
+	color: #da552f;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.loader {
+	border: 16px solid #999;
+	border-top: 16px solid #da552f;
+	border-bottom: 16px solid #da552f;
+	border-radius: 50%;
+	width: 120px;
+	height: 120px;
+	animation: spin 1.5s linear infinite;
+}
+
+@keyframes spin {
+	0% { transform: rotate(0deg); }
+	100% { transform: rotate(360deg); }
+}

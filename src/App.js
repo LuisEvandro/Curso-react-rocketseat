@@ -1,4 +1,7 @@
-import React, {Component} from 'react';
+import React from 'react';
+
+//Routes
+import Routes from './routes';
 
 //CSS global
 import './styles.css';
@@ -6,14 +9,11 @@ import './styles.css';
 //Header
 import Header from './components/Header';
 
-//Main
-import Main from './pages/main/index';
-
 function App() {
   return (
 	<div className="App">
 		<Header />
-		<Main/>
+		<Routes />
 	</div>
   );
 }
